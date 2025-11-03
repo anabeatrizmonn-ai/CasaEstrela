@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produtos | Casa Estrela</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="loja">
+  <header>
+    <div class="logo">
+      <h1>Casa Estrela <span class="estrela">★</span></h1>
+      <p>Nova Lima - MG</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="loja-container">
+    <section class="produtos-vitrine">
+      <h2>Nossos Produtos</h2>
+      <p>Escolha seus favoritos e leve um pedacinho da Casa Estrela com você.</p>
+
+      <div class="produtos-lista">
+        <div class="produto-item">
+          <img src="produto1.jpg" alt="Sabonete Natural" />
+          <h3>Sabonete Natural</h3>
+          <p>R$ 18,00</p>
+          <button onclick="adicionarAoCarrinho('Sabonete Natural', 18)">Adicionar</button>
+        </div>
+        <div class="produto-item">
+          <img src="produto2.jpg" alt="Vela Aromática" />
+          <h3>Vela Aromática</h3>
+          <p>R$ 32,00</p>
+          <button onclick="adicionarAoCarrinho('Vela Aromática', 32)">Adicionar</button>
+        </div>
+        <div class="produto-item">
+          <img src="produto3.jpg" alt="Chá da Montanha" />
+          <h3>Chá da Montanha</h3>
+          <p>R$ 25,00</p>
+          <button onclick="adicionarAoCarrinho('Chá da Montanha', 25)">Adicionar</button>
+        </div>
+        <!-- Adicione mais produtos aqui -->
+        <div class="produtos-lista">
+  <div class="produto-item">
+    <img src="produto1.jpg" alt="Sabonete de Lavanda" />
+    <h3>Sabonete de Lavanda</h3>
+    <p>R$ 18,00</p>
+    <button onclick="adicionarAoCarrinho('Sabonete de Lavanda', 18)">Adicionar</button>
+  </div>
+  <div class="produto-item">
+    <img src="produto2.jpg" alt="Vela de Canela" />
+    <h3>Vela de Canela</h3>
+    <p>R$ 32,00</p>
+    <button onclick="adicionarAoCarrinho('Vela de Canela', 32)">Adicionar</button>
+  </div>
+  <div class="produto-item">
+    <img src="produto3.jpg" alt="Chá da Montanha" />
+    <h3>Chá da Montanha</h3>
+    <p>R$ 25,00</p>
+    <button onclick="adicionarAoCarrinho('Chá da Montanha', 25)">Adicionar</button>
+  </div>
+  <div class="produto-item">
+    <img src="produto4.jpg" alt="Difusor de Ambiente" />
+    <h3>Difusor de Ambiente</h3>
+    <p>R$ 38,00</p>
+    <button onclick="adicionarAoCarrinho('Difusor de Ambiente', 38)">Adicionar</button>
+  </div>
+  <div class="produto-item">
+    <img src="produto5.jpg" alt="Almofada Artesanal" />
+    <h3>Almofada Artesanal</h3>
+    <p>R$ 49,00</p>
+    <button onclick="adicionarAoCarrinho('Almofada Artesanal', 49)">Adicionar</button>
+  </div>
+  <div class="produto-item">
+    <img src="produto6.jpg" alt="Caderno Reciclado" />
+    <h3>Caderno Reciclado</h3>
+    <p>R$ 22,00</p>
+    <button onclick="adicionarAoCarrinho('Caderno Reciclado', 22)">Adicionar</button>
+  </div>
+  <div class="produto-item">
+    <img src="produto7.jpg" alt="Caixa Decorativa" />
+    <h3>Caixa Decorativa</h3>
+    <p>R$ 55,00</p>
+    <button onclick="adicionarAoCarrinho('Caixa Decorativa', 55)">Adicionar</button>
+  </div>
+  <div class="produto-item">
+    <img src="produto8.jpg" alt="Pote de Ervas Naturais" />
+    <h3>Pote de Ervas Naturais</h3>
+    <p>R$ 27,00</p>
+    <button onclick="adicionarAoCarrinho('Pote de Ervas Naturais', 27)">Adicionar</button>
+  </div>
+  <div class="produto-item">
+    <img src="produto9.jpg" alt="Kit Banho Relaxante" />
+    <h3>Kit Banho Relaxante</h3>
+    <p>R$ 64,00</p>
+    <button onclick="adicionarAoCarrinho('Kit Banho Relaxante', 64)">Adicionar</button>
+  </div>
+  <div class="produto-item">
+    <img src="produto10.jpg" alt="Mini Casinha Rústica" />
+    <h3>Mini Casinha Rústica</h3>
+    <p>R$ 39,99</p>
+    <button onclick="adicionarAoCarrinho('Mini Casinha Rústica', 39.99)">Adicionar</button>
+  </div>
+  <div class="produto-item">
+    <img src="produto11.jpg" alt="Conjunto Estrela Festa" />
+    <h3>Conjunto Estrela Festa</h3>
+    <p>R$ 26,99</p>
+    <button onclick="adicionarAoCarrinho('Conjunto Estrela Festa', 26.99)">Adicionar</button>
+  </div>
+  <div class="produto-item">
+    <img src="produto12.jpg" alt="Pote Personalizado Estrela" />
+    <h3>Pote Personalizado Estrela</h3>
+    <p>R$ 44,36</p>
+    <button onclick="adicionarAoCarrinho('Pote Personalizado Estrela', 44.36)">Adicionar</button>
+  </div>
+  <div class="produto-item">
+    <img src="produto13.jpg" alt="Ponteira de Estrela Natalina" />
+    <h3>Ponteira de Estrela Natalina</h3>
+    <p>R$ 139,00</p>
+    <button onclick="adicionarAoCarrinho('Ponteira de Estrela Natalina', 139)">Adicionar</button>
+  </div>
+  <div class="produto-item">
+    <img src="produto14.jpg" alt="Massinha Estrela Infantil" />
+    <h3>Massinha Estrela Infantil</h3>
+    <p>R$ 59,99</p>
+    <button onclick="adicionarAoCarrinho('Massinha Estrela Infantil', 59.99)">Adicionar</button>
+  </div>
+  <div class="produto-item">
+    <img src="produto15.jpg" alt="Artesanato Natural Caseiro" />
+    <h3>Artesanato Natural Caseiro</h3>
+    <p>R$ 67,13</p>
+    <button onclick="adicionarAoCarrinho('Artesanato Natural Caseiro', 67.13)">Adicionar</button>
+  </div>
+  <div class="produto-item">
+    <img src="produto16.jpg" alt="Incenso de Montanha" />
+    <h3>Incenso de Montanha</h3>
+    <p>R$ 19,90</p>
+    <button onclick="adicionarAoCarrinho('Incenso de Montanha', 19.9)">Adicionar</button>
+  </div>
+  <div class="produto-item">
+    <img src="produto17.jpg" alt="Toalha Bordada Estrela" />
+    <h3>Toalha Bordada Estrela</h3>
+    <p>R$ 45,00</p>
+    <button onclick="adicionarAoCarrinho('Toalha Bordada Estrela', 45)">Adicionar</button>
+  </div>
+  <div class="produto-item">
+    <img src="produto18.jpg" alt="Cesto de Palha Decorativo" />
+    <h3>Cesto de Palha Decorativo</h3>
+    <p>R$ 52,00</p>
+    <button onclick="adicionarAoCarrinho('Cesto de Palha Decorativo', 52)">Adicionar</button>
+  </div>
+  <div class="produto-item">
+    <img src="produto19.jpg" alt="Pingente Estrela Artesanal" />
+    <h3>Pingente Estrela Artesanal</h3>
+    <p>R$ 33,00</p>
+    <button onclick="adicionarAoCarrinho('Pingente Estrela Artesanal', 33)">Adicionar</button>
+  </div>
+  <div class="produto-item">
+    <img src="produto20.jpg" alt="Quadro Rústico de Madeira" />
+    <h3>Quadro Rústico de Madeira</h3>
+    <p>R$ 79,00</p>
+    <button onclick="adicionarAoCarrinho('Quadro Rústico de Madeira', 79)">Adicionar</button>
+  </div>
+</div>
+      </div>
+    </section>
+
+    <aside class="carrinho">
+      <h3>🛒 Carrinho</h3>
+      <ul id="lista-carrinho"></ul>
+      <p><strong>Total:</strong> R$ <span id="total">0</span>,00</p>
+      <button class="finalizar" onclick="finalizarCompra()">Finalizar Compra</button>
+    </aside>
+  </main>
+
+  <script>
+    const lista = document.getElementById('lista-carrinho');
+    const totalSpan = document.getElementById('total');
+    let total = 0;
+
+    function adicionarAoCarrinho(nome, preco) {
+      const item = document.createElement('li');
+      item.textContent = `${nome} - R$ ${preco},00`;
+      lista.appendChild(item);
+      total += preco;
+      totalSpan.textContent = total;
+    }
+
+    function finalizarCompra() {
+      alert("Compra finalizada! Obrigado por escolher a Casa Estrela.");
+      lista.innerHTML = "";
+      total = 0;
+      totalSpan.textContent = total;
+    }
+     <footer>
+    <p>&copy; 2025 Casa Estrela de Nova Lima. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
